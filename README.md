@@ -12,7 +12,7 @@ haxelib install hxgamemode
 ```
 Or through `Git`, if you want the latest updates
 ```bash
-haxelib git hxraudio https://github.com/MAJigsaw77/hxgamemode.git
+haxelib git hxgamemode https://github.com/MAJigsaw77/hxgamemode.git
 ```
 
 ### Usage Example
