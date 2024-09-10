@@ -5,7 +5,7 @@ import hxgamemode.GamemodeClient;
 class Main
 {
 	/**
-	 * This wil make it so it is runned right at program startup.
+	 * This will make it so it is runned right at program startup.
 	 */
 	@:noCompletion
 	private static function __init__():Void
