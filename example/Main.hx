@@ -4,7 +4,11 @@ import hxgamemode.GamemodeClient;
 
 class Main
 {
-	public static function main():Void
+	/**
+	 * This wil make it so it is runned right at program startup.
+	 */
+	@:noCompletion
+	private static function __init__():Void
 	{
 		// Request we start game mode
 		if (GamemodeClient.request_start() != 0)
@@ -14,7 +18,10 @@ class Main
 		}
 		else
 			Sys.println('Succesfully requested gamemode to start...');
+	}
 
+	public static function main():Void
+	{
 		// Simulate running a game
 		Sys.sleep(10);
 
